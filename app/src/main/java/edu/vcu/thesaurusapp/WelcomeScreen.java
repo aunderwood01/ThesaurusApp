@@ -18,5 +18,9 @@ public class WelcomeScreen extends AppCompatActivity {
             Intent i = new Intent(WelcomeScreen.this, EnterValues.class);
             startActivity(i);
         }
+        else if(v.getId() == R.id.Bsubmit) {
+            Intent i = new Intent(WelcomeScreen.this, Results.class);
+            startActivity(i);
+        }
     }
 }
