@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Thesaurus App</string>
+    <string name="enter_values">Enter Values</string>
+    <string name="find_synonym">Find Synonym</string>
+</resources>

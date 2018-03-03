@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.vcu.thesaurusapp.WelcomeScreen">
+
+    <Button
+        android:id="@+id/Bentervalues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="11dp"
+        android:onClick="onButtonClick"
+        android:text="@string/enter_values"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Bfindsynonym"
+        app:layout_constraintEnd_toStartOf="@+id/Bfindsynonym"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Word"
+        app:layout_constraintBottom_toTopOf="@+id/Bfindsynonym"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tfindsynonym" />
+
+    <Button
+        android:id="@+id/Bfindsynonym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="269dp"
+        android:text="@string/find_synonym"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Bentervalues"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/Tfindsynonym"
+        android:layout_width="375dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="34dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/find_synonym"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="NewApi" />
+
+</android.support.constraint.ConstraintLayout>
