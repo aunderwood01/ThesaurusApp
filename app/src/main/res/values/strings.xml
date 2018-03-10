@@ -6,4 +6,9 @@
     <string name="synonym">Synonym</string>
     <string name="submit">Submit</string>
     <string name="enter_values_title">Enter a word and its synonym</string>
+    <string name="emptyString" />
+    <string name="emptySting2" />
+    <string name="emptyString2" />
+    <string name="resultsWord">Your word: </string>
+    <string name="resultsSynonym">Synonym: </string>
 </resources>
