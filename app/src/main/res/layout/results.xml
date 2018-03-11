@@ -55,8 +55,10 @@
         android:layout_marginStart="38dp"
         android:layout_marginTop="26dp"
         android:text="@string/emptyString2"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        android:layout_marginLeft="38dp" />
+        android:layout_marginLeft="38dp"
+        tools:targetApi="lollipop" />
 
 </android.support.constraint.ConstraintLayout>

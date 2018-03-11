@@ -28,7 +28,7 @@
         android:layout_marginBottom="63dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/word"
+        android:hint="@string/welcomeWord"
         app:layout_constraintBottom_toTopOf="@+id/Bfindsynonym"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

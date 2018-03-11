@@ -11,4 +11,5 @@
     <string name="emptyString2" />
     <string name="resultsWord">Your word: </string>
     <string name="resultsSynonym">Synonym: </string>
+    <string name="welcomeWord">Enter a word</string>
 </resources>
